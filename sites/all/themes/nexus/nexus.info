@@ -33,8 +33,8 @@ features[] = main_menu
 features[] = secondary_menu
 settings[slideshow_display]  = 1
 settings[breadcrumbs]  = 1
-settings[slide1_head]  = "Sample product"
-settings[slide2_head]  = "Sample service"
+settings[slide1_head]  = "Really Old Books"
+settings[slide2_head]  = "Amazing Selection"
 settings[slide3_head]  = "Contact us"
 settings[slide1_desc]  = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor..."
 settings[slide2_desc]  = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet irure dolor in reprehenderit..."
@@ -47,4 +47,3 @@ version = "7.x-1.3"
 core = "7.x"
 project = "nexus"
 datestamp = "1378634197"
-

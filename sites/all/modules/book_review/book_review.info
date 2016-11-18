@@ -1,0 +1,17 @@
+name = Book Review
+description = track changes to book reviews
+core = 7.x
+package = Features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = comment_body
+features[field_instance][] = comment-comment_node_book_review-comment_body
+features[field_instance][] = node-book_review-body
+features[field_instance][] = node-book_review-field_author
+features[field_instance][] = node-book_review-field_rating
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][list] = list
+features_exclude[dependencies][options] = options
+features_exclude[field_base][body] = body
+features_exclude[field_base][field_author] = field_author
+features_exclude[field_base][field_rating] = field_rating
